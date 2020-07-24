@@ -41,6 +41,7 @@ https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-reposito
 git branch (name) to create new branch 
 
 if you want to delete the branch, You have to make sure your are not on that exact branch, if so Switch branch with **git checkout (name ex: master)** then use **git branch -d (name of branch w/o parenth)**  
+
 3. **git checkout -b (name)** will create a branch and checkout at same time to simplify steps
 4. git merge 
 https://www.youtube.com/watch?v=yyLiplDQtf0&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=15
