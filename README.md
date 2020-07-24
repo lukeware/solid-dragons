@@ -33,6 +33,21 @@ There are many more articles and videos available to help you with Github. Begin
 
 At some point you will likely need to clone the repository to your development machine. Remember to use the SSH Clone URL when cloning the repository so you can contribute back easily when the time comes.
 
+
+**Micky Help Sheet**
+https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository
+1. **git status** is helpful to identify any pushes made and what Branch your ON.
+2. **git branch** will tell you what branch your working on, so your not on master Branch and doing commits on there like I accidentally did.
+git branch (name) to create new branch 
+
+if you want to delete the branch, You have to make sure your are not on that exact branch, if so Switch branch with **git checkout (name ex: master)** then use **git branch -d (name of branch w/o parenth)**  
+3. **git checkout -b (name)** will create a branch and checkout at same time to simplify steps
+4. git merge 
+https://www.youtube.com/watch?v=yyLiplDQtf0&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=15
+5. **git pull** grabs all the la
+
+
+
 For additional information, consult the individual assignment pages in Canvas.
 
 **Please Note:** You may come up with whatever ideas you want regarding the development of this project. You should allow your imagination and intellect run wild. But please realize that you will not be actually building the things you suggest. All the time we have this quarter allows for is one or two tasks per person, which means your project will be far from complete at the end of this quarter. **That is OK!** And it is expected.
