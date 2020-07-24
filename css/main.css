@@ -4,6 +4,20 @@
    Author's custom styles
    ========================================================================== */
 
+ 
+/* sprint 1 Img zoom on Hover */
+ 
+img {
+   transition: transform .2s; /* Animation */
+   margin: 0 auto;
+ 
+}
+ 
+img:hover {
+   transform: scale(1.25);
+}
+ 
+/* END sprint 1  */
 
 
 
