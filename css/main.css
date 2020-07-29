@@ -4,8 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
+/*user rating*/
+.rating > .fa:hover,
+  .rating > .fa:hover  ~ .fa{
+    text-shadow: 0 0 9px rgba(238, 255, 0, 0.788);
+    color: #FDE16D;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: relative;
+    left: 0;
+    }
 
-
+    .fa.rated::before{
+        /* the :hover should come first */
+        content: '\2605';
+        color: #FDE16D;
+        font-size: 40px;
+      }
 
 
 
