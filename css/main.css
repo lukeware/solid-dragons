@@ -6,11 +6,35 @@
 
 
 
+/* icon legend */
+
+.legend{
+   text-align: center;
+   align-items: center;
+   align-content: center;
+   font-size: 2em;
+  
+ 
+}
+
+table, th, td {
+   border: 2px solid black;
+   align-content: center;
+
+   
+ 
+ }
+
+ table{
+    width: 100%;
+ }
 
 
 
 
-
-
+.legend img{
+max-width: 120px;
+max-height: 120px;
+}
 
 
