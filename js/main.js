@@ -21,13 +21,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
               }
           
               function appendData(data) {
-              var resultsFor = document.getElementById("results-for");
-              var h5 = document.createElement("h5");
+              let resultsFor = document.getElementById("results-for");
+              resultsFor.innerHTML = "";
+              let h5 = document.createElement("h5");
               h5.innerHTML = "Results for Seattle, WA";
               resultsFor.appendChild(h5);
-              var searchResults = document.getElementById("search-results");
-              for (var i = 0; i < data.length; i++) {//appends each result to page
-                  var div = document.createElement("div");
+              let searchResults = document.getElementById("search-results");
+              searchResults.innerHTML = "";
+              for (let i = 0; i < data.length; i++) {//appends each result to page
+                  let div = document.createElement("div");
                   div.innerHTML = data[i].name + ' ' + data[i].summary;
                   searchResults.appendChild(div);
               }
