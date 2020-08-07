@@ -6,11 +6,46 @@
 
 
 
+/* icon legend */
+
+.legend{
+   text-align: center;
+   align-items: center;
+   align-content: center;
+   font-size: 2em;
+  
+ 
+}
+
+table, th, td {
+   border: 2px solid black;
+   align-content: center;
+ 
+ }
+
+ th{
+    background-color: rgb(172, 158, 255);
+ }
 
 
 
+ table{
+    width: 100%;
+ }
 
 
 
+.legend img{
+max-width: 120px;
+max-height: 120px;
+}
 
+
+/* Sample Page css */
+
+.container{
+   width: 70%;
+   max-width: 1200px;
+   padding: 5px;
+}
 
