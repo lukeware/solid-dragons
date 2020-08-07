@@ -9,12 +9,12 @@
  
 img {
    transition: transform .2s; /* Animation */
-   margin: 0 auto;
+
  
 }
  
 img:hover {
-   transform: scale(1.25);
+   transform: scale(1.1);
 }
  
 /* END sprint 1  */
